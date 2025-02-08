@@ -20,7 +20,7 @@ import dotenv
 
 dotenv.load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_TOKEN")
-PATH = "../Data/stock_data.csv"
+PATH = "../Data/stock_prices.csv"
 # print(GROQ_API_KEY)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

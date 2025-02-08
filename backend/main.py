@@ -254,7 +254,7 @@ class StockResponse(BaseModel):
     narrative: str
 
 # Initialize analyzer
-FAISS_INDEX_PATH = "stock_index.faiss"
+FAISS_INDEX_PATH = "backend/stock_index.faiss"
 analyzer = StockAnalysisRAG(FAISS_INDEX_PATH)
 # NewsProcessor class to handle news-related tasks
 class NewsProcessor:
