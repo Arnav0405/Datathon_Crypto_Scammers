@@ -3,4 +3,8 @@ RAG_Worker.py
 embedders.py
 
 embeddings.csv
-/__pycache__/
+backend/__pycache__/
+/Data/img.jpg
+/Data/Homepage.jpg
+/Data/News_Section.jpg
+/Data/Report_Section.jpg
