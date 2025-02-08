@@ -1,6 +1,7 @@
 .env
 RAG_Worker.py
 embedders.py
+chatbot.py
 
 embeddings.csv
 backend/__pycache__/
@@ -8,3 +9,4 @@ backend/__pycache__/
 /Data/Homepage.jpg
 /Data/News_Section.jpg
 /Data/Report_Section.jpg
+/__pycache__/
